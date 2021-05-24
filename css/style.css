@@ -431,18 +431,21 @@ html{
 }
 .footer{
 	width: 100%;
-	height: 100px;
+	min-height: 100px;
 	display: inline-block;
 	text-align: center;
 	background-color: #f7eded;
+	box-sizing: border-box;
 }
 .footer-links a{
+	margin-left: 20px;
 text-decoration: none;
 color:black;
+border-bottom: 1px solid black;
 }
 .footer-links a:hover{
 text-decoration: none;
-color: black;
+color: grey;
 }
 
 

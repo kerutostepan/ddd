@@ -1,5 +1,6 @@
 html{
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 *,
@@ -15,6 +16,7 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  text-decoration: none;
 }
 
 .header_content{
@@ -169,3 +171,22 @@ html{
 .aboutn{
   font-weight: 550;
 }
+.footer{
+  width: 100%;
+  min-height: 100px;
+  display: inline-block;
+  text-align: center;
+  background-color: #f7eded;
+  box-sizing: border-box;
+}
+.footer-links a{
+  margin-left: 20px;
+text-decoration: none;
+color:black;
+border-bottom: 1px solid black;
+}
+.footer-links a:hover{
+text-decoration: none;
+color: grey;
+}
+
